@@ -1,5 +1,7 @@
 let myElement = document.getElementById('myImg'),
-myImgs =['../img/image.jpg','../img/image1.jpg','../img/image2.jpg'];
+myImgs =['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_xrE7uD0PuGgCQQWMppA1z6K2NXA1pTu8Q&usqp=CAU'
+,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLO-crZi9DT1yBh9QXdFEEdM5TIJJt1Jr6Bw&usqp=CAU'
+,'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrts4s07RNeg1LNf09MWQTa40FR0QFTDEe2Q&usqp=CAU'];
 
 function changeImage(myElement, myImgs){
 

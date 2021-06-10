@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(191 211 228);
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 1;
+    /* height: 50px; */
+
+}
+header{
+width: 100%px;
+height: 50px;
+margin-top: 5px;
+padding: 15px;
+background-color:  rgb(187 208 227);
+z-index: 2;
+position: relative;
+}
+
+header .logo img{
+    width: 5%;
+     
+     position: absolute;
+     margin-left: 20px;
+} 
+header .project-name{
+    font-size: 40px;
+    color: #00335f;
+    text-align: center;
+    letter-spacing: 20px;
+    font-family: initial;
+    /* margin-right: 40%; */
+}
+
+header .project-name:hover{
+    color: rgb(12, 12, 12);
+}
+nav{
+    width: 100%;
+}
+nav .links{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+   
+
+
+
+}
+a {
+    text-decoration:none;
+    color: 201414;
+    transition: 0.3s;
+    
+}
+a:hover {
+    color: rgb(24, 212, 181);
+}
+nav .links li{
+    display: inline-block;
+    padding: 5px;
+    
+    
+}
+#intro{
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    transition: 0.23s;
+}
+
+#intro:hover{
+    color: rgb(55, 201, 55);
+}
+
+.random-images{
+    margin-top:53px;
+    margin-left:32%;
+    margin-right: 27.75%; 
+    
+    border: 3px solid black;
+
+}
+#myImg{
+    width: 300px;
+    height: 201px;
+}
+
+footer{
+    width: 100%;
+    height:40px;
+    background-color: rgb(187 208 227);
+    margin-top:15%;
+}
+#fotterp{
+    text-align: center;
+}
+#button{
+    margin-top:30px;
+    margin-left:47.5%;
+    color: rgb(150, 149, 146);
+    background-color: black;
+    font-family:initial ; 
+    transition: 0.2S;
+
+}
+#button:hover{
+    color: blanchedalmond;
+}
